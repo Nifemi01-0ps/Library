@@ -4,10 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="library.js"></script>
+    <script src="library.js" defer></script>
     <title>Library</title>
 </head>
 <body>
-    
+    <div id="library"></div>
+    <button id="newBookBtn">New Book</button>
+    <form action="" id="bookForm">
+        <label for="">Title:
+            <input type="text" name="title" id="title" required>
+        </label><br><br>
+        <label for="">Author: 
+            <input type="text" name="author" id="author" required>
+        </label><br><br>
+        <label for="">Pages
+            <input type="number" name="pages" id="pages" required>
+        </label><br><br>
+        <label for="">Read
+            <input type="checkbox" name="isRead" id="isRead">
+        </label><br><br>
+        <button type="submit">Add Book</button>
+    </form>
 </body>
 </html>
