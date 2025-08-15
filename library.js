@@ -113,8 +113,6 @@ Book.prototype.toggleRead = function () {
 }
 
 // Add example books
-addBookToLibrary("The Hobbit", "J.R.R. Tolkien", 310, false);
-addBookToLibrary("1984", "George Orwell", 328, true);
 
 // Display them
 displayBook();
